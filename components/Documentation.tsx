@@ -83,7 +83,7 @@ const Documentation: React.FC = () => {
         <ScrollReveal animation="fade-up" delay={400}>
           <div className="mt-20 text-center">
             <button className="inline-flex items-center gap-2 text-slate-400 hover:text-white font-bold transition-all group px-8 py-4 rounded-full border border-white/5 hover:border-white/10 hover:bg-white/5">
-              Lihat Seluruh Album di YouTube
+              Lihat Seluruh Album di Instagram
               <ExternalLink className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
             </button>
           </div>
