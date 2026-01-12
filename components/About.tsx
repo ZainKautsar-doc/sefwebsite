@@ -35,8 +35,8 @@ const About: React.FC = () => {
             <h2 className="text-blue-500 font-bold tracking-widest uppercase text-xs">Tentang Event</h2>
             <h3 className="text-3xl md:text-5xl font-bold font-montserrat">Apa itu Smansa Edu Fair?</h3>
             <p className="text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
-              Smansa Edu Fair (SEF) adalah agenda tahunan unggulan yang dirancang untuk memberikan wawasan mendalam 
-              kepada para pelajar tentang jenjang pendidikan tinggi.
+              Smansa Edu Fair (SEF) adalah agenda tahunan unggulan yang hadir untuk 
+              membantumu menjelajahi dunia perkuliahan dan memberikan wawasan mendalam tentang berbagai pilihan perguruan tinggi.
             </p>
           </div>
         </ScrollReveal>
@@ -46,9 +46,10 @@ const About: React.FC = () => {
             <div className="space-y-8">
               <h4 className="text-3xl font-bold">Pusat Informasi Pendidikan</h4>
               <p className="text-slate-400 leading-relaxed text-lg">
-                Diselenggarakan oleh OSIS & Komite Sekolah, SEF 2026 bertujuan untuk membantu siswa menentukan 
-                langkah strategis dalam memilih program studi dan universitas. Kami mengumpulkan puluhan institusi 
-                pendidikan dalam satu atap untuk memberikan kemudahan akses informasi bagi semua.
+                Diselenggarakan oleh Alumni SMA Negeri 1 Majenang, SEF hadir untuk membantumu menentukan 
+                langkah strategis dalam memilih program studi dan universitas impian. Kami menghadirkan 
+                puluhan institusi pendidikan dalam satu tempat demi memudahkanmu mengakses informasi yang 
+                akurat dan terpercaya.
               </p>
               <div className="space-y-6">
                 <div className="flex items-start gap-5 p-4 rounded-2xl bg-white/5 border border-white/5">
@@ -56,8 +57,8 @@ const About: React.FC = () => {
                     <Sparkles className="w-5 h-5 text-blue-500" />
                   </div>
                   <div>
-                    <p className="font-bold text-white text-lg">Orientasi Karir & Akademik</p>
-                    <p className="text-slate-400">Konsultasi langsung dengan konselor pendidikan berpengalaman.</p>
+                    <p className="font-bold text-white text-lg">Informasi Kampus & Program Studi</p>
+                    <p className="text-slate-400">Konsultasi langsung dengan alumni yang sudah diterima di universitas impian, dan dapatkan insight seputar kampus serta program studi yang kamu impikan.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-5 p-4 rounded-2xl bg-white/5 border border-white/5">
@@ -65,8 +66,8 @@ const About: React.FC = () => {
                     <ShieldCheck className="w-5 h-5 text-emerald-500" />
                   </div>
                   <div>
-                    <p className="font-bold text-white text-lg">Networking Alumni</p>
-                    <p className="text-slate-400">Berbagi pengalaman suka duka kehidupan kampus dengan para senior.</p>
+                    <p className="font-bold text-white text-lg">Inspiration & Talkshow Kampus</p>
+                    <p className="text-slate-400">Event dan talkshow inspiratif untuk mengenal kehidupan kampus, jurusan kuliah, serta strategi SNBT & UTBK.</p>
                   </div>
                 </div>
               </div>

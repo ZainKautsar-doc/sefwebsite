@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full text-center">
         <ScrollReveal animation="fade-up" duration={1000}>
           <div className="space-y-10 max-w-4xl mx-auto">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/20 border border-blue-500/30 text-blue-300 text-sm font-semibold backdrop-blur-sm">
+            <div className="mt-11 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/20 border border-blue-500/30 text-blue-300 text-sm font-semibold backdrop-blur-sm">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
@@ -36,8 +36,7 @@ const Hero: React.FC = () => {
                 Ready to Learn, Ready to Lead, Ready to Campus Life
               </p>
               <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-                Platform edukasi terpercaya untuk melangkah ke jenjang universitas. 
-                Mari bergabung sebagai volunteer dan ciptakan perubahan nyata bersama Smansa Edu Fair.
+                Eksplorasi dunia kampus bersama SEF 2026, mulai dari info universitas hingga strategi UTBK. Join sebagai volunteer dan bangun jaringan luas bersama kami!
               </p>
             </div>
 
