@@ -8,7 +8,7 @@ const About: React.FC = () => {
     {
       icon: <Target className="w-6 h-6 text-blue-400" />,
       title: "Misi Utama",
-      description: "Menjembatani kesenjangan informasi antara siswa SMA dengan dunia perkuliahan dan profesional."
+      description: "Menjadi jembatan informasi bagi siswa untuk menjelajahi dunia perkuliahan dan memahami berbagai pilihan perguruan tinggi secara menyeluruh."
     },
     {
       icon: <ShieldCheck className="w-6 h-6 text-emerald-400" />,
@@ -23,7 +23,7 @@ const About: React.FC = () => {
     {
       icon: <Sparkles className="w-6 h-6 text-amber-400" />,
       title: "Visi Masa Depan",
-      description: "Mencetak generasi yang siap memimpin dan berkontribusi bagi bangsa melalui pendidikan."
+      description: "Mendukung lahirnya generasi yang siap melangkah ke jenjang perguruan tinggi dengan percaya diri dan mampu berkontribusi bagi bangsa melalui pendidikan."
     }
   ];
 

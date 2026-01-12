@@ -9,8 +9,8 @@ const Hero: React.FC = () => {
       {/* Immersive Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?q=80&w=2070&auto=format&fit=crop" 
-          alt="Audience" 
+          src="https://i.ibb.co.com/BK57QkBw/IMG-0001-1-2.webp" 
+          alt="panitia" 
           className="w-full h-full object-cover scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-slate-950/90 via-slate-950/70 to-slate-950" />
