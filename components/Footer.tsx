@@ -9,17 +9,19 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <GraduationCap className="w-6 h-6 text-white" />
+              <div className="p-2 rounded-lg">
+                <img src="https://i.ibb.co.com/Wv9ZvsKR/logo-fix.webp" 
+                alt="logo sef" 
+              className="w-6 h-6 object-contain"/>
               </div>
               <span className="text-xl font-bold font-montserrat tracking-tighter">SEF 2026</span>
             </div>
             <p className="text-slate-500 leading-relaxed text-sm">
-              Event edukasi terbesar yang menghubungkan siswa dengan masa depan impian mereka. 
-              Bersama Smansa Edu Fair, wujudkan ambisi akademis Anda.
+              Satu hari, puluhan insight tentang dunia perkuliahan. 
+              Smansa Edu Fair hadir untuk membantumu merancang masa depan sejak sekarang.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="bg-slate-900 p-3 rounded-full hover:bg-blue-600 transition-all border border-white/5 hover:border-blue-500">
+              <a href="https://www.instagram.com/smansaedufair/" className="bg-slate-900 p-3 rounded-full hover:bg-blue-600 transition-all border border-white/5 hover:border-blue-500">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="bg-slate-900 p-3 rounded-full hover:bg-emerald-600 transition-all border border-white/5 hover:border-emerald-500">
@@ -55,11 +57,12 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-6">Sekretariat</h4>
             <p className="text-sm text-slate-500 leading-relaxed">
-              SMA Negeri 1 <br />
-              Jl. Pendidikan No. 45, <br />
-              Kota Belajar, Indonesia 12345
+              SMA Negeri 1 Majenang <br />
+              Jl. Raya Pahonjean, <br />
+              Kec . Majenang, Kab. Cilacap, <br />
+              Prov. Jawa Tengah
             </p>
-            <p className="mt-4 text-sm text-blue-400 font-medium">info@smansafair.com</p>
+            <p className="mt-4 text-sm text-blue-400 font-medium">smansaedufair@gmail.com</p>
           </div>
         </div>
 

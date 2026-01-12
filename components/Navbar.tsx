@@ -38,7 +38,8 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-2 cursor-pointer group" onClick={() => scrollTo('#home')}>
             <div className="p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <img src="https://i.ibb.co.com/Wv9ZvsKR/logo-fix.webp" alt="logo sef" 
+              <img src="https://i.ibb.co.com/Wv9ZvsKR/logo-fix.webp" 
+              alt="logo sef" 
               className="w-6 h-6 object-contain"/>
             </div>
             <span className="text-xl font-bold font-montserrat tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">

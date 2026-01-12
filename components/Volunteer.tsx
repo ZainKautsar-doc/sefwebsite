@@ -45,7 +45,7 @@ const Volunteer: React.FC = () => {
 
                 <div className="flex flex-wrap gap-6 pt-4">
                   <a 
-                    href="https://google.com/forms" 
+                    href="https://bit.ly/pendaftaranpanitiasef2026" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-500 text-white px-10 py-5 rounded-2xl font-black transition-all shadow-2xl shadow-blue-600/30 group/btn"

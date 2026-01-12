@@ -7,12 +7,12 @@ const Documentation: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'photo' | 'video'>('all');
 
   const items = [
-    { id: 1, type: 'photo', url: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=800&auto=format&fit=crop', title: 'Talkshow Sesi 1' },
-    { id: 2, type: 'video', url: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=800&auto=format&fit=crop', title: 'Aftermovie 2025' },
-    { id: 3, type: 'photo', url: 'https://images.unsplash.com/photo-1544928147-79a2dbc1f389?q=80&w=800&auto=format&fit=crop', title: 'Campus Expo Hall' },
-    { id: 4, type: 'photo', url: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=800&auto=format&fit=crop', title: 'Registrasi Peserta' },
-    { id: 5, type: 'video', url: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop', title: 'Highlights Day 2' },
-    { id: 6, type: 'photo', url: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop', title: 'Awarding Night' },
+    { id: 1, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Talkshow Sesi 1' },
+    { id: 2, type: 'video', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Aftermovie 2025' },
+    { id: 3, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Campus Expo Hall' },
+    { id: 4, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Registrasi Peserta' },
+    { id: 5, type: 'video', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Highlights Day 2' },
+    { id: 6, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Awarding Night' },
   ];
 
   const filteredItems = filter === 'all' ? items : items.filter(i => i.type === filter);
