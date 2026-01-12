@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
                 Ready to Learn, Ready to Lead, Ready to Campus Life
               </p>
               <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-                Eksplorasi dunia kampus bersama SEF 2026, mulai dari info universitas hingga strategi UTBK. Join sebagai volunteer dan bangun jaringan luas bersama kami!
+                Eksplorasi dunia kampus bersama Smansa Edu Fair, mulai dari info universitas hingga strategi UTBK. Join sebagai volunteer dan bangun jaringan luas bersama kami!
               </p>
             </div>
 
