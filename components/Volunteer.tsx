@@ -16,20 +16,20 @@ const Volunteer: React.FC = () => {
             <div className="grid lg:grid-cols-2 gap-20 items-center">
               <div className="space-y-12">
                 <div className="space-y-6">
-                  <h2 className="text-blue-500 font-black uppercase tracking-[0.3em] text-[10px]">Open Recruitment</h2>
+                  <h2 className="text-blue-500 font-black uppercase tracking-[0.3em] text-[13px]">Open Recruitment</h2>
                   <h3 className="text-4xl md:text-6xl font-bold font-montserrat tracking-tight text-white leading-tight">Be Part of the <span className="text-blue-500">Journey!</span></h3>
                   <p className="text-slate-400 text-lg leading-relaxed max-w-xl">
-                    Kami mencari individu yang bersemangat untuk bergabung sebagai volunteer SEF 2026. 
-                    Ini adalah kesempatanmu untuk mengasah skill organisasi, memperluas relasi, dan berkontribusi langsung bagi dunia pendidikan.
+                    Kami mencari individu yang bersemangat untuk bergabung sebagai volunteer di Event SEF. 
+                    Ini kesempatanmu untuk terlibat langsung dalam penyelenggaraan Smansa Edu Fair, mengasah kemampuan organisasi, memperluas relasi, dan berkontribusi nyata bagi masa depan siswa SMA Negeri 1 Majenang.
                   </p>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-8">
                   {[
-                    { icon: <Users className="text-blue-400" />, title: "Networking", desc: "Berinteraksi dengan ratusan tamu universitas." },
-                    { icon: <Zap className="text-emerald-400" />, title: "Experience", desc: "Bangun portfolio dengan event berskala nasional." },
-                    { icon: <ClipboardCheck className="text-rose-400" />, title: "Certificate", desc: "Sertifikat resmi dari pihak sekolah." },
-                    { icon: <ArrowRight className="text-amber-400" />, title: "Growth", desc: "Asah soft skill dan kepemimpinan Anda." }
+                    { icon: <Users className="text-blue-400" />, title: "Networking", desc: "BBerinteraksi dengan perwakilan kampus dan peserta." },
+                    { icon: <Zap className="text-emerald-400" />, title: "Experience", desc: "Bangun portfolio melalui pengalaman mengelola event edukasi.​" },
+                    { icon: <ClipboardCheck className="text-rose-400" />, title: "Certificate", desc: "Mendapatkan sertifikat resmi sebagai bukti partisipasi.​" },
+                    { icon: <ArrowRight className="text-amber-400" />, title: "Growth", desc: "Mengasah soft skill dan kemampuan kepemimpinan.​" }
                   ].map((benefit, idx) => (
                     <div key={idx} className="flex gap-5 group/item">
                       <div className="bg-white/5 p-4 h-fit rounded-2xl group-hover/item:bg-white/10 transition-colors">

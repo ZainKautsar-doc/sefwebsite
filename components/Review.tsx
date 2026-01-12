@@ -7,83 +7,83 @@ const Review: React.FC = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Andi Wijaya",
-      role: "Siswa SMA Negeri 1",
-      content: "SEF benar-benar membantu saya menentukan pilihan jurusan. Informasi beasiswanya sangat lengkap!",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
-      avatar: "https://i.pravatar.cc/150?u=andi"
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 2,
-      name: "Siska Putri",
-      role: "Mahasiswa UI (Alumni 2024)",
-      content: "Event ini adalah jembatan terbaik buat adik-adik SMA. Sangat profesional pengelolaannya.",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
-      avatar: "https://i.pravatar.cc/150?u=siska"
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 3,
-      name: "Budi Santoso",
-      role: "Orang Tua Siswa",
-      content: "Sebagai orang tua, saya merasa tenang karena anak saya jadi punya gambaran yang jelas.",
-      rating: 4,
-      avatar: "https://i.pravatar.cc/150?u=budi"
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
+      rating: 5,
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 4,
-      name: "Larasati",
-      role: "Siswa SMA Harapan",
-      content: "Acara talkshow-nya asik banget, nggak kaku. Jadi berani nanya-nanya langsung.",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
-      avatar: "https://i.pravatar.cc/150?u=laras"
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 5,
-      name: "Doni Kurniawan",
-      role: "Mahasiswa ITB",
-      content: "Volunteer di SEF memberikan saya pengalaman organisasi yang luar biasa berharga.",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
       avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 6,
-      name: "Maya Indah",
-      role: "Alumni SMAN 1",
-      content: "Kebersamaan tim panitia sangat terasa. Senang bisa berkontribusi kembali.",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
-      avatar: "https://i.pravatar.cc/150?u=maya"
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 7,
-      name: "Rizky Pratama",
-      role: "Mahasiswa UGM",
-      content: "Konten acaranya sangat padat dan bermanfaat. Rugi kalau nggak ikutan!",
-      rating: 4,
-      avatar: "https://i.pravatar.cc/150?u=rizky"
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
+      rating: 5,
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 8,
-      name: "Fitri Aulia",
-      role: "Siswa SMA 3",
-      content: "Banyak info kampus yang belum pernah saya dengar sebelumnya ada di sini.",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
-      avatar: "https://i.pravatar.cc/150?u=fitri"
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 9,
-      name: "Kevin Sanjaya",
-      role: "Mahasiswa IPB",
-      content: "SEF 2026 terlihat jauh lebih modern dan profesional. Keren banget!",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
-      avatar: "https://i.pravatar.cc/150?u=kevin"
+      avatar: "https://i.pravatar.cc/150?u=doni"
     },
     {
       id: 10,
-      name: "Amanda",
-      role: "Mahasiswa Binus",
-      content: "Networking yang saya dapatkan selama jadi volunteer sangat membantu karir saya.",
+      name: "Gibran",
+      role: "Wapres",
+      content: "SEF keren!",
       rating: 5,
-      avatar: "https://i.pravatar.cc/150?u=amanda"
+      avatar: "https://i.pravatar.cc/150?u=doni"
     }
   ];
 
@@ -95,7 +95,7 @@ const Review: React.FC = () => {
             <h2 className="text-emerald-400 font-bold tracking-widest uppercase text-xs">Testimonials</h2>
             <h3 className="text-3xl md:text-5xl font-bold font-montserrat">Review Acara</h3>
             <p className="text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
-              Dengarkan apa kata mereka yang telah bergabung di Smansa Edu Fair sebelumnya.
+              Dengarkan apa kata mereka yang telah bergabung di Smansa Edu Fair sebelumnya, baik peserta maupun volunteer.
             </p>
           </div>
         </ScrollReveal>
