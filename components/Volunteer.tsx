@@ -26,7 +26,7 @@ const Volunteer: React.FC = () => {
 
                 <div className="grid sm:grid-cols-2 gap-8">
                   {[
-                    { icon: <Users className="text-blue-400" />, title: "Networking", desc: "BBerinteraksi dengan perwakilan kampus dan peserta." },
+                    { icon: <Users className="text-blue-400" />, title: "Networking", desc: "Berinteraksi dengan perwakilan kampus dan peserta." },
                     { icon: <Zap className="text-emerald-400" />, title: "Experience", desc: "Bangun portfolio melalui pengalaman mengelola event edukasi.​" },
                     { icon: <ClipboardCheck className="text-rose-400" />, title: "Certificate", desc: "Mendapatkan sertifikat resmi sebagai bukti partisipasi.​" },
                     { icon: <ArrowRight className="text-amber-400" />, title: "Growth", desc: "Mengasah soft skill dan kemampuan kepemimpinan.​" }
