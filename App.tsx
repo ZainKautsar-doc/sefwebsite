@@ -7,6 +7,7 @@ import Documentation from './components/Documentation';
 import Review from './components/Review';
 import Volunteer from './components/Volunteer';
 import Footer from './components/Footer';
+import Feedback from './components/Feedback';
 
 const App: React.FC = () => {
   const [activeSection, setActiveSection] = useState('home');
