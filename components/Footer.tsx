@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <div className="p-2 rounded-lg">
-                <img src="https://i.ibb.co.com/Wv9ZvsKR/logo-fix.webp" 
+                <img src="https://i.ibb.co/Wv9ZvsKR/logo-fix.webp" 
                 alt="logo sef" 
               className="w-6 h-6 object-contain"/>
               </div>
@@ -24,13 +24,13 @@ const Footer: React.FC = () => {
               <a href="https://www.instagram.com/smansaedufair/" className="bg-slate-900 p-3 rounded-full hover:bg-blue-600 transition-all border border-white/5 hover:border-blue-500">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-slate-900 p-3 rounded-full hover:bg-emerald-600 transition-all border border-white/5 hover:border-emerald-500">
+              <a href="https://wa.me/6289504603388?text=Halo%20Panitia%20SEF%202026,%20saya%20ingin%20bertanya." className="bg-slate-900 p-3 rounded-full hover:bg-emerald-600 transition-all border border-white/5 hover:border-emerald-500">
                 <MessageCircle className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-slate-900 p-3 rounded-full hover:bg-rose-600 transition-all border border-white/5 hover:border-rose-500">
+              <a href="mailto:zainkautsarridha@gmail.com?subject=SEF%202026%20Inquiry&body=Halo%20Panitia%20SEF%202026," className="bg-slate-900 p-3 rounded-full hover:bg-rose-600 transition-all border border-white/5 hover:border-rose-500">
                 <Mail className="w-5 h-5" />
               </a>
-              <a href="#" className="bg-slate-900 p-3 rounded-full hover:bg-gray-700 transition-all border border-white/5 hover:border-gray-500">
+              <a href="https://github.com/ZainKautsar-doc" className="bg-slate-900 p-3 rounded-full hover:bg-gray-700 transition-all border border-white/5 hover:border-gray-500">
                 <Github className="w-5 h-5" />
               </a>
             </div>
