@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Mail, MessageCircle, GraduationCap } from 'lucide-react';
+import { Instagram, Mail, MessageCircle, Github, GraduationCap } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -29,6 +29,9 @@ const Footer: React.FC = () => {
               </a>
               <a href="#" className="bg-slate-900 p-3 rounded-full hover:bg-rose-600 transition-all border border-white/5 hover:border-rose-500">
                 <Mail className="w-5 h-5" />
+              </a>
+              <a href="#" className="bg-slate-900 p-3 rounded-full hover:bg-gray-700 transition-all border border-white/5 hover:border-gray-500">
+                <Github className="w-5 h-5" />
               </a>
             </div>
           </div>
