@@ -14,6 +14,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
     { label: 'About', href: '#about' },
     { label: 'Documentation', href: '#documentation' },
     { label: 'Review', href: '#review' },
+    { label: 'Feedback', href: '#feedback' },
     { label: 'Volunteer', href: '#volunteer' },
   ];
 

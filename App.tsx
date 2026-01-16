@@ -14,7 +14,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'documentation', 'review', 'volunteer'];
+      const sections = ['home', 'about', 'documentation', 'review', 'feedback', 'volunteer'];
       const scrollPosition = window.scrollY + 150;
 
       for (const section of sections) {
@@ -47,6 +47,9 @@ const App: React.FC = () => {
         </section>
         <section id="review">
           <Review />
+        </section>
+        <section id="feedback">
+          <Feedback />
         </section>
         <section id="volunteer">
           <Volunteer />
