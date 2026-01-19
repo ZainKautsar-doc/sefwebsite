@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Documentation from './components/Documentation';
+import SpeedInsightsGuide from './components/SpeedInsightsGuide';
 import Review from './components/Review';
 import Volunteer from './components/Volunteer';
 import Footer from './components/Footer';
@@ -15,7 +16,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'documentation', 'review', 'feedback', 'volunteer'];
+      const sections = ['home', 'about', 'documentation', 'speedinsights', 'review', 'feedback', 'volunteer'];
       const scrollPosition = window.scrollY + 150;
 
       for (const section of sections) {
@@ -45,6 +46,9 @@ const App: React.FC = () => {
         </section>
         <section id="documentation">
           <Documentation />
+        </section>
+        <section id="speedinsights">
+          <SpeedInsightsGuide />
         </section>
         <section id="review">
           <Review />
