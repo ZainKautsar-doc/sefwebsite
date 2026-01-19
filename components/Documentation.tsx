@@ -11,7 +11,7 @@ const Documentation: React.FC = () => {
     { id: 2, type: 'photo', url: 'https://i.ibb.co.com/xKWYwkxp/IMG-0017.webp', title: 'Talkshow bersama Mahasiswa ITB' },
     { id: 3, type: 'photo', url: 'https://i.ibb.co.com/FRqDVxm/IMG-3808.webp', title: 'Simulasi Kelas dengan Mentor' },
     { id: 4, type: 'photo', url: 'https://i.ibb.co.com/YFXzGzQD/Whats-App-Image-2026-01-08-at-2-23-13-PM-1.webp', title: 'Doorprize dari Pemateri' },
-    { id: 5, type: 'video', url: 'https://www.instagram.com/reel/DTidv6TDyHU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', title: 'Aftermovie SEF 2026' },
+    { id: 5, type: 'video', url: 'https://i.ibb.co.com/SDxQkrXJ/IMG-3900.webp', title: 'Aftermovie SEF 2026 in Instagram' },
     { id: 6, type: 'photo', url: 'https://i.ibb.co.com/Z67PKtyw/IMG-3832.webp', title: 'Simulasi Kelas dengan Mentor' },
   ];
 
