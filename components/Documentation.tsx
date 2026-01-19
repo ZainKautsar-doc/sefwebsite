@@ -7,12 +7,12 @@ const Documentation: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'photo' | 'video'>('all');
 
   const items = [
-    { id: 1, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Talkshow Sesi 1' },
-    { id: 2, type: 'video', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Aftermovie 2025' },
-    { id: 3, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Campus Expo Hall' },
-    { id: 4, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Registrasi Peserta' },
-    { id: 5, type: 'video', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Highlights Day 2' },
-    { id: 6, type: 'photo', url: 'https://i.ibb.co/9mrWmq8J/IMG-3799.webp', title: 'Awarding Night' },
+    { id: 1, type: 'photo', url: 'https://ibb.co.com/gFDHNzQD', title: 'Stand Safari Universitas' },
+    { id: 2, type: 'photo', url: 'https://ibb.co.com/zWpFCMqy', title: 'Talkshow bersama Mahasiswa ITB' },
+    { id: 3, type: 'photo', url: 'https://ibb.co.com/hkcmFnC', title: 'Simulasi Kelas dengan Mentor' },
+    { id: 4, type: 'photo', url: 'https://ibb.co.com/9khFjFgw', title: 'Doorprize dari Pemateri' },
+    { id: 5, type: 'video', url: 'https://www.instagram.com/reel/DTidv6TDyHU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', title: 'Aftermovie SEF 2026' },
+    { id: 6, type: 'photo', url: 'https://ibb.co.com/w5rzs0B', title: 'Simulasi Kelas dengan Mentor' },
   ];
 
   const filteredItems = filter === 'all' ? items : items.filter(i => i.type === filter);
