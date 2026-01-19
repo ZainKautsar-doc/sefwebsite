@@ -8,11 +8,11 @@ const Documentation: React.FC = () => {
 
   const items = [
     { id: 1, type: 'photo', url: 'https://i.ibb.co.com/yB8GtWK8/ESC06241-28.webp', title: 'Stand Safari Universitas' },
-    { id: 2, type: 'photo', url: 'https://ibb.co.com/zWpFCMqy', title: 'Talkshow bersama Mahasiswa ITB' },
-    { id: 3, type: 'photo', url: 'https://ibb.co.com/hkcmFnC', title: 'Simulasi Kelas dengan Mentor' },
-    { id: 4, type: 'photo', url: 'https://ibb.co.com/9khFjFgw', title: 'Doorprize dari Pemateri' },
+    { id: 2, type: 'photo', url: 'https://i.ibb.co.com/xKWYwkxp/IMG-0017.webp', title: 'Talkshow bersama Mahasiswa ITB' },
+    { id: 3, type: 'photo', url: 'https://i.ibb.co.com/FRqDVxm/IMG-3808.webp', title: 'Simulasi Kelas dengan Mentor' },
+    { id: 4, type: 'photo', url: 'https://i.ibb.co.com/YFXzGzQD/Whats-App-Image-2026-01-08-at-2-23-13-PM-1.webp', title: 'Doorprize dari Pemateri' },
     { id: 5, type: 'video', url: 'https://www.instagram.com/reel/DTidv6TDyHU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', title: 'Aftermovie SEF 2026' },
-    { id: 6, type: 'photo', url: 'https://ibb.co.com/w5rzs0B', title: 'Simulasi Kelas dengan Mentor' },
+    { id: 6, type: 'photo', url: 'https://i.ibb.co.com/Z67PKtyw/IMG-3832.webp', title: 'Simulasi Kelas dengan Mentor' },
   ];
 
   const filteredItems = filter === 'all' ? items : items.filter(i => i.type === filter);
