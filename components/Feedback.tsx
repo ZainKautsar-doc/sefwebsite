@@ -54,7 +54,7 @@ const Feedback: React.FC = () => {
 
                 <div className="flex justify-center">
                   <a 
-                    href="https://google.com/forms" 
+                    href="https://forms.gle/gr3vcdSsYqrDxxBr6" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-3 bg-rose-600 hover:bg-rose-500 text-white px-12 py-5 rounded-2xl font-black transition-all shadow-2xl shadow-rose-600/30 group text-xl"
