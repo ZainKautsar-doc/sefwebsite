@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
