@@ -7,7 +7,7 @@ const Documentation: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'photo' | 'video'>('all');
 
   const items = [
-    { id: 1, type: 'photo', url: 'https://ibb.co.com/gFDHNzQD', title: 'Stand Safari Universitas' },
+    { id: 1, type: 'photo', url: 'https://i.ibb.co.com/yB8GtWK8/ESC06241-28.webp', title: 'Stand Safari Universitas' },
     { id: 2, type: 'photo', url: 'https://ibb.co.com/zWpFCMqy', title: 'Talkshow bersama Mahasiswa ITB' },
     { id: 3, type: 'photo', url: 'https://ibb.co.com/hkcmFnC', title: 'Simulasi Kelas dengan Mentor' },
     { id: 4, type: 'photo', url: 'https://ibb.co.com/9khFjFgw', title: 'Doorprize dari Pemateri' },
