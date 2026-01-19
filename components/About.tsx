@@ -76,8 +76,8 @@ const About: React.FC = () => {
           
           <ScrollReveal animation="slide-right">
             <div className="grid grid-cols-2 gap-6">
-              <img src="https://i.ibb.co.com/9mrWmq8J/IMG-3799.webp" alt="Students" className="rounded-[2.5rem] w-full h-[400px] object-cover shadow-2xl hover:scale-[1.02] transition-transform duration-500" />
-              <img src="https://i.ibb.co.com/9mrWmq8J/IMG-3799.webp" alt="Learning" className="rounded-[2.5rem] w-full h-[400px] object-cover mt-12 shadow-2xl hover:scale-[1.02] transition-transform duration-500" />
+              <img src="https://i.ibb.co.com/b5vtJv2D/mc.webp" alt="Students" className="rounded-[2.5rem] w-full h-[400px] object-cover shadow-2xl hover:scale-[1.02] transition-transform duration-500" />
+              <img src="https://i.ibb.co.com/d4K1Y4N9/ESC06242-1.webp" alt="Learning" className="rounded-[2.5rem] w-full h-[400px] object-cover mt-12 shadow-2xl hover:scale-[1.02] transition-transform duration-500" />
             </div>
           </ScrollReveal>
         </div>
