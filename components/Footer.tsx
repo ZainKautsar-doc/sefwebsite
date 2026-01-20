@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <div className="p-2 rounded-lg">
-                <img src="https://i.ibb.co/Wv9ZvsKR/logo-fix.webp" 
+                <img src="https://i.ibb.co.com/Wv9ZvsKR/logo-fix.webp" 
                 alt="logo sef" 
               className="w-6 h-6 object-contain"/>
               </div>
