@@ -1,25 +1,51 @@
 # SEF Website (Smansa Edu Fair)
 
-SEF Website adalah website resmi untuk acara **Smansa Edu Fair (SEF)**, sebuah event edukasi yang diselenggarakan untuk memberikan informasi, dokumentasi, serta membuka kesempatan relawan (volunteer) bagi peserta yang ingin terlibat langsung dalam acara.
+Website resmi untuk acara **Smansa Edu Fair (SEF)** yang berfungsi sebagai media informasi, dokumentasi, dan pendaftaran volunteer. Website ini dirancang dengan tampilan modern, sederhana, dan responsif agar mudah diakses dari berbagai perangkat.
 
-Website ini dirancang dengan tampilan modern, sederhana, dan informatif agar mudah diakses oleh pengunjung dari berbagai perangkat.
+🔗 Live Preview: https://smansa-edu-fair.vercel.app/
+
+---
+
+## 📌 Tentang Project
+SEF Website dibuat untuk mendukung kegiatan Smansa Edu Fair dengan menyediakan informasi lengkap mengenai acara, tujuan, serta dokumentasi kegiatan. Selain itu, website ini juga memfasilitasi proses open recruitment volunteer melalui integrasi dengan Google Form.
+
+Website ini menekankan pada:
+- Tampilan modern dan minimalis
+- Navigasi yang sederhana dan mudah dipahami
+- Responsif di berbagai ukuran layar
+- Akses informasi yang cepat dan jelas
 
 ---
 
 ## ✨ Fitur Utama
+### 1. Home
+- Gambaran umum tentang acara Smansa Edu Fair
+- Highlight tujuan dan daya tarik utama event
 
-- **Home**
-  - Menampilkan gambaran umum acara Smansa Edu Fair
-  - Highlight tujuan dan daya tarik utama event
+### 2. About
+- Informasi latar belakang acara
+- Tujuan dan konsep kegiatan SEF
 
-- **About**
-  - Informasi lengkap mengenai latar belakang, tujuan, dan konsep acara SEF
+### 3. Documentation
+- Galeri dokumentasi kegiatan
+- Konten visual dari event sebelumnya
 
-- **Documentation**
-  - Galeri dokumentasi berupa foto atau konten visual dari kegiatan SEF
-
-- **Volunteer**
-  - Informasi open recruitment volunteer
-  - Terintegrasi dengan **Google Form** melalui link atau QR Code
+### 4. Volunteer
+- Informasi open recruitment volunteer
+- Integrasi dengan Google Form untuk pendaftaran
 
 ---
+
+## 🛠️ Teknologi yang Digunakan
+- TypeScript
+- HTML
+- Vite
+- Component-based structure
+
+---
+
+## 🎯 Tujuan Project
+Project ini dibuat sebagai website event edukasi yang:
+- Menyediakan informasi resmi acara
+- Menjadi media dokumentasi kegiatan
+- Mempermudah proses rekrutmen volunteer secara online
